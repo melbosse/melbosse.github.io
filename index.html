@@ -1,12 +1,75 @@
-<style>
-    div {
-        display: flex;
-        align-items: center;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <title>Portfolio</title>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li id="about">/à-propos</li>
+          <li id="contact">/contact</li>
+          <li id="resume"><a class="resume" target="_blank" href="MelinaBosseCV.pdf">/cv</a></li>
+        </ul>
+      </nav>
 
-<div width="100%">
-    <a href="https://melbosse.github.io/">
-        <img src="https://i.pinimg.com/236x/9a/c6/bd/9ac6bd8baa543df7da8b7357f6cd9145--sailor-neptune-sailor-uranus.jpg" /><br />
-    </a>
-</div>
+      <main>
+        <h1>melbosse:~$<span class="cursor">|</span></h1>
+        <div class="terminal">
+          <span> Bonjour! Je suis Mélina 👋</span>
+          <br>
+          <span class="dollar"> J'ai une formation en développement web </span>
+          <br>
+          <span class="dollar"> Je suis une passionnée d'informatique </span>
+          <br>
+          <span class="dollar"> Vous pouvez me retrouver sur: </span> 
+          <br>
+          <br>
+
+        <ul>
+         <li>
+            <a href="https://www.linkedin.com/in/melinabosse" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/melbosse" target="_blank">GitHub</a>
+          </li>
+         </ul>
+
+         <br>
+         <span class="dollar"> À bientôt! 😊</span> 
+        </div>
+        
+      </main>
+    </div>
+
+    <div class="hidden">
+      <div id="about-content">
+        <h2>à-propos:~$<span class="cursor">|</span></h2>
+        <p>Durant la dernière année j'ai énormément utilisé C#, SQL, PHP et ASP.NET MVC.</p>
+        <p>Je possède de bonnes bases en informatique.</p>
+        <p>Je suis autodidacte et mon AEC m'a permis de développer rapidement mes compétences et ce, dans une courte période de temps.</p>
+        <p>Au cours de mon stage, j'ai appris le Classic ASP ainsi que le Framework Laravel avec lequel j'ai fait un projet en équipe avec un autre stagiaire.</p>
+      </div>
+
+      <div id="contact-content">
+        <h2>contactez-moi:~$<span class="cursor">|</span></h2>
+        <p>Vous pouvez me contacter à l'adresse courriel suivante:
+        <ul>
+          <li>Courriel: <a href="mailto:bossemel@outlook.fr">bossemel@outlook.fr</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/winbox.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <footer>
+      <p id="copyright"><a href="https://github.com/bradtraversy">© bradtraversy</a><br></p>
+    </footer>
+  </body>
+</html>
